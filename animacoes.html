@@ -5,14 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animação pulsante</title>
-    <link rel="stylesheet" href="anima.css">
+
+    <style>
+        .pulsante {
+            margin: 50px;
+            width: 100px;
+            height: 100px;
+            animation: pulsa 2s infinite;
+        }
+
+        @keyframes pulsa {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
 </head>
 
 <body>
-        <div class="pulsante">
-            <img src="C:\Users\maria\OneDrive\Área de Trabalho\descodificadas\pusheen heart.jpeg" alt="Cat Heart">
-        </div>
-    
+    <div class="pulsante">
+        <img src="C:\Users\maria\OneDrive\Área de Trabalho\descodificadas\pusheen heart.jpeg" alt="Cat Heart">
+    </div>
+
 </body>
 
 </html>
