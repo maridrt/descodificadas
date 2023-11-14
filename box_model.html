@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+        div {
+            width: 400px;
+            height: 400px;
+            margin: 50px auto;
+
+            /* Bordas e arredondamento */
+            border: 10px solid #ee7fe8;
+            border-radius: 50%;
+
+            /* Imagem de fundo */
+            background-image: url("pusheen.png");
+            background-size: cover;
+
+            /* Sombra da caixa */
+            box-shadow: inset -10px 20px 10px -10px  rgb(224, 112, 191);
+
+            /* Contorno por fora */
+            outline: 15px solid gray;
+            outline-width: 5px;
+
+            /* Preenchimento interno */
+            padding: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-style: normal;
+            font-size: 40px;
+            color: gray;
+            font-weight: bold;
+            padding-top: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <p>Descodificadas</p>
+    </div>
+
+</body>
+
+</html>
