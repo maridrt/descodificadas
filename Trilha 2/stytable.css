@@ -1,0 +1,111 @@
+.titulo{
+    text-align: left;
+    font-family: Roboto; 
+    font-size: 34px;
+    font-weight: 700;
+    color: #505050;
+    }
+
+.definicao{
+    text-align: left;
+    font-family: Roboto; 
+    font-size: 18px;
+    font-weight: 400;
+    color: #505050;
+}
+
+.tabela-periodica{
+    /*background-color: #f2f0d8;*/
+    font-family: 'Roboto', sans-serif;
+    margin-top: 45px;
+}
+
+.elementos {
+    position: relative;
+    width: 58px;
+    height: 58px;
+}
+
+
+.numero{
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    color: white;
+}
+
+.sigla{
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.nome{
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.azul_escuro{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #3b56a6;
+}  
+
+.amarelo{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #cacf00;
+    
+} 
+
+.roxo{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: purple;
+}
+
+.rosa{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: pink;
+}
+
+.azul{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #6bc6ef;
+    
+}
+
+.verde{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #38b66b;
+}
+
+.laranja{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #f58132;
+    
+}
+
+.vermelho{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #ee3432;
+    
+}
+
+.vermelho_escuro{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: #a62439;
+    
+}
